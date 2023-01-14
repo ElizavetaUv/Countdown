@@ -1,7 +1,7 @@
 // Countdown
 
 const countdown = () => {
-  const countDate = new Date("January 1, 2023 00:00:00").getTime();
+  const countDate = new Date("January 1, 2024 00:00:00").getTime();
   let timeNow = new Date().getTime();
   let timeGap = countDate - timeNow;
   if (timeGap <= 0) return;
